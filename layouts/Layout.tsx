@@ -18,8 +18,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <p>
             SSR with React Query Example
           </p>
-          <Link href="/">SSR Example</Link>
-          <Link href="/list">None SSR Example</Link>
+          <Link href="/">[Home]</Link>
+          <Link href="/list">[None SSR]</Link>
+          <Link href="/axios">[Axios SSR]</Link>
+          <Link href="/axios-page">[Axios Query SSR]</Link>
+          <Link href="/react-query">[Axios SSR]</Link>
+          <Link href="/react-query-page">[Axios Query SSR]</Link>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
